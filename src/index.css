@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    background-color: rgb(224, 223, 223); 
+    font-family: sans-serif; 
+    scroll-behavior: smooth;
+}
+.heading{
+    text-align: center;
+}
+.title{
+    color:rgb(63, 63, 212);
+}
+.load{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+.form{
+    margin: auto;
+    margin-top:12%;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.login{
+  height: 400px;
+}
+.signup{
+    height: 440px;
+}
+.addcontact{
+    height: 330px ;
+}
+.changename{
+    height: 120px;
+}
+.wrap{
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+.appbar{
+    width:100%;
+    min-height: 60px;
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    background-color:rgb(63, 63, 212) ;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    z-index: 2;
+}
+.appbar button{
+    color: white;
+}
+
+.profile{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.profile a{
+    text-decoration: none;
+}
+.profile a:hover{
+    text-decoration: underline;
+}
+
+
+.add{
+    position: relative;
+    top:auto;
+    bottom: -25px;
+    z-index: 3;
+}
+.chatList a{
+    color: black;
+    text-decoration: none;
+}
+.chatList a:hover li{
+    background-color: rgb(236, 236, 236);
+}
+.chatList h3{
+    padding-left: 20px;
+}
+.chatList p{
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(41, 41, 41);
+}
+.chatList-header{
+    display: flex;
+    flex-direction: column;
+}
+.chatList-header > div{
+    margin: 0px 50px 20px 50px;
+}
+.chatList-header input{
+    font-size: 18px;
+}
+
+.chatroom{
+    min-height: 100vh;
+}
+.chattitle{
+    width:100%;
+    display: flex;
+    margin: auto;
+    background-color:rgb(63, 63, 212) ;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    z-index: 2;
+    justify-content: flex-start;
+    height: 8vh;
+    align-items: center;
+}
+.chattitle button{
+    color: white;
+}
+.box{
+    overflow: auto;
+    height:80vh;
+}
+.box button{
+    display: block;
+    color: rgb(63, 63, 212);
+    margin:5px auto;
+}
+.typeMes{
+    min-height: 8vh;
+    padding: 6px;
+    border-top: 1px solid rgb(216, 216, 216);
+    display: flex;
+}
+.message{
+    color: white;
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+}
+.message p{
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    max-width: 80%;
+    overflow-wrap: break-word;
+}
+.time{
+    font-size: 12px;
+    display: block;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.float-right{
+    float:right;
+    display: block;
+}
+.float-right p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.receive{
+    margin: 0;
+    margin-left: 5px;
+    background-color: rgb(236, 236, 236);
+    color: rgb(22, 22, 22);
+}
+.receive span{
+    color: rgb(105, 105, 105);
+}
+.send{
+    float: right;
+    margin-right: 5px;
+    background-color: rgb(63, 63, 212);
+    color: white;
+}
+.send span{
+    color: rgb(214, 214, 214);
+}
+.messageInput{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+}
+.messageInput div{
+    padding: 10px;
+}
+.typeMes button{
+    height: 100%;
+}
+
+
+.face-page{
+    background-color: white;
+}
+.face-heading{
+    text-align: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.face-heading h2{
+    color:rgb(24, 24, 24);
+    margin: 60px auto;
+}
+.face-heading h2>span{
+    font-size: 50px;
+    color: rgb(63, 63, 212);
+}
+.face-heading button{
+    display: block;
+    margin: 30px auto;
+}
+.face-heading a{
+    text-decoration: none;
+}
+
+.images img{
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.images img:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.technology{
+    text-align: center;
+    background-color: rgb(63, 63, 212);
+    color: white;
+    padding-bottom: 20px;
+}
+.technology a{
+    font-size: 18px;
+    color: white;
+    margin: auto 18px;
+}
+
+@media only screen and (max-width: 414px){
+  .form{
+      width: 90%;
+      margin-top: 25%;
+  }
+}
